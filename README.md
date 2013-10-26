@@ -13,11 +13,11 @@ Files:
 
     .
     ├─ plugins/
-    │  └── category_generator.rb
-    │  └── category_list.rb
-    │  └── category_tag_cloud.rb
-    │  └── tag_generator.rb
-    │  └── tag_list.rb
+    │  ├─ category_generator.rb
+    │  ├─ category_list.rb
+    │  ├─ category_tag_cloud.rb
+    │  ├─ tag_generator.rb
+    │  └─ tag_list.rb
     └─ source/
        └─ _includes/
           └─ custom/
