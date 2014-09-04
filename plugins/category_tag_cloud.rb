@@ -75,11 +75,7 @@ module Jekyll
       max, min = 1, 1
       config = context.registers[:site].config
       
-      if @tag_name == 'tag_cloud'
-        #cloud_dir = config['tag_dir']
-		cloud_dir = context.registers[:site].config['tag_dir']
-		cloud = context.registers[:site].tags
-      else
+      if @tag_name == 'category_cloud' 
         #cloud_dir = config['category_dir']
 		cloud_dir = context.registers[:site].config['category_dir']
         cloud = context.registers[:site].categories
@@ -135,4 +131,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('category_cloud', Jekyll::CategoryCumulusCloud)
-Liquid::Template.register_tag('tag_cloud', Jekyll::CategoryCumulusCloud)
