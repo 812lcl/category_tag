@@ -131,4 +131,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('category_cloud', Jekyll::CategoryCumulusCloud)
-Liquid::Template.register_tag('tag_cloud', Jekyll::CategoryCumulusCloud)
